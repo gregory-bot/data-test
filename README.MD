@@ -168,7 +168,7 @@ LEFT JOIN employees m ON e.mgrId = m.id;
 Which quarter had the lowest profit margin (ratio of profit to revenue)?
 
 **Graph:**
-![Graph showing revenue and costs per quarter](graph_question_6.png)
+![Graph showing revenue and costs per quarter](https://github.com/gregory-bot/data-test/blob/main/q6.jpeg)
 
 **Explanation:**
 - Profit margin is calculated as `(Revenue - Costs) / Revenue`.
