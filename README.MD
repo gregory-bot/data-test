@@ -207,12 +207,14 @@ What is the average profit per quarter?
 **Answer:**
 - $43,750
 
+
+
 ### Question 8
 **Question:**
 Which members of the team achieved above average results for the first quarter of the year?
 
 **Graph:**
-![Graph showing KPI metrics for team members](graph_question_8.png)
+![Graph showing KPI metrics for team members](https://github.com/gregory-bot/data-test/blob/main/q8.jpeg)
 
 **Explanation:**
 - Calculate the average number of closed deals for Q1 across all team members.
@@ -273,6 +275,8 @@ The price of gas was $4.00 per gallon. It increased by 20% and then decreased by
 
 **Answer:**
 - $3.84 per gallon
+
+
 
 ### Question 11
 **Question:**
