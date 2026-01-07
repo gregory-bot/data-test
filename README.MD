@@ -283,7 +283,7 @@ The price of gas was $4.00 per gallon. It increased by 20% and then decreased by
 Last year, a bakery owner occasionally counted the number of coffees and cakes he sold for the day. He created the following chart from his compiled numbers.
 
 **Graph:**
-![Graph showing relationship between coffee and cake sales](graph_question_11.png)
+![Graph showing relationship between coffee and cake sales](https://github.com/gregory-bot/data-test/blob/main/q11.jpeg)
 
 **Question:**
 Given his data, which of the following conclusions are true? (Select all acceptable answers.)
