@@ -181,12 +181,14 @@ Which quarter had the lowest profit margin (ratio of profit to revenue)?
 **Answer:**
 - Q4 has the lowest profit margin (0.25).
 
+
+
 ### Question 7
 **Question:**
 What is the average profit per quarter?
 
 **Graph:**
-![Graph showing quarterly revenues and costs](graph_question_7.png)
+![Graph showing quarterly revenues and costs](https://github.com/gregory-bot/data-test/blob/main/q7.jpeg)
 
 **Explanation:**
 - Profit is calculated as `Revenue - Cost`.
