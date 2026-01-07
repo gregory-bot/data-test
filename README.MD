@@ -253,16 +253,8 @@ After returning to the US from vacation, you check the currency exchange rates t
 **Question:**
 How much is the leftover foreign cash worth in US dollars (USD)?
 
-**Calculations:**
-- 50 EUR → 50 ÷ 2 = 25 USD
-- 10 GBP → 10 ÷ 5 = 2 USD
-- 100 SEK → 100 ÷ 0.5 = 50 USD
-
-**Total:**
-- 25 + 2 + 50 = 77 USD
-
 **Answer:**
-- 77 USD
+- 152 USD
 
 ### Question 10
 **Question:**
