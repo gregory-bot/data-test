@@ -32,9 +32,9 @@
 | 1          | 200   |
 | 2          | 300   |
 
-## Questions and Answers
+For each SQL Querry, specify the number of rows it should return
 
-### Question 1
+### Querry 1
 ```sql
 SELECT name FROM agents JOIN offices ON agents.officeId = offices.Id;
 ```
@@ -56,7 +56,7 @@ SELECT name FROM agents JOIN offices ON agents.officeId = offices.Id;
 
 **Number of rows:** 4
 
-### Question 2
+### Querry 2
 ```sql
 SELECT name FROM agents LEFT JOIN offices ON agents.officeId = offices.Id;
 ```
@@ -77,7 +77,7 @@ SELECT name FROM agents LEFT JOIN offices ON agents.officeId = offices.Id;
 
 **Number of rows:** 5
 
-### Question 3
+### Querry 3
 ```sql
 SELECT name FROM agents RIGHT JOIN offices ON offices.directorId = agents.Id;
 ```
@@ -97,25 +97,11 @@ SELECT name FROM agents RIGHT JOIN offices ON offices.directorId = agents.Id;
 
 **Number of rows:** 3
 
+
+
 ### Question 4
-**Question:**
-Write a query that returns names of employees who have no sales.
-
-```sql
-SELECT e.name
-FROM employees e
-LEFT JOIN sales s ON e.id = s.employeeId
-WHERE s.employeeId IS NULL;
-```
-**Explanation:**
-- This query uses a LEFT JOIN to find employees who have no matching rows in the `sales` table.
-- The condition `WHERE s.employeeId IS NULL` filters out employees who have sales.
-
-**Result:**
-- Returns names of employees who have no sales.
 
 **Data Provided:**
-
 #### Table: employees
 | id | name       |
 |----|------------|
@@ -129,6 +115,21 @@ WHERE s.employeeId IS NULL;
 | 1          | 100   |
 | 1          | 200   |
 | 2          | 300   |
+
+**Question:**
+Write a query that returns names of employees who have no sales.
+
+```sql
+SELECT e.name
+FROM employees e
+LEFT JOIN sales s ON e.id = s.employeeId
+WHERE s.employeeId IS NULL;
+```
+**Explanation:**
+- This query uses a LEFT JOIN to find employees who have no matching rows in the `sales` table.
+- The condition `WHERE s.employeeId IS NULL` filters out employees who have sales.
+
+
 
 ### Question 5
 
@@ -159,6 +160,8 @@ LEFT JOIN employees m ON e.mgrId = m.id;
 
 **Result:**
 - Returns the name of each employee and their respective manager (or NULL if no manager).
+
+
 
 ### Question 6
 **Question:**
