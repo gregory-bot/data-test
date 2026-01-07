@@ -235,6 +235,8 @@ Which members of the team achieved above average results for the first quarter o
 **Question:**
 After returning to the US from vacation, you check the currency exchange rates to see how much the leftover foreign cash you have is worth.
 
+![currency](https://github.com/gregory-bot/data-test/blob/main/q9.jpeg)
+
 **Exchange Rates:**
 | Currency | 1 USD = |
 |----------|---------|
